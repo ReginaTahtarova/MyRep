@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ce9dc5e0-7be7-45e2-8175-4abe4bb7b64e" name="Spark@SPARK-ПК 2015-12-14 23:22:24" runUser="Spark-ПК\Spark" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="90291a03-567d-4a5f-82a9-2145686a9d4b">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment userDeploymentRoot="C:\Users\Spark\Desktop\MyUnitTest\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Spark_SPARK-ПК 2015-12-14 23_22_24" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-12-14T23:22:24.9669163+03:00" queuing="2015-12-14T23:22:24.9929177+03:00" start="2015-12-14T23:22:24.9959179+03:00" finish="2015-12-14T23:22:25.2059299+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\spark\desktop\myunittest\testproject1\bin\debug\testproject1.dll" id="59863143-3238-122e-4d8a-637b491cc755">
+      <Execution id="a23b6c62-d4ad-4e08-9082-3b8901df9cfc" />
+      <TestMethod codeBase="C:/Users/Spark/Desktop/MyUnitTest/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="59863143-3238-122e-4d8a-637b491cc755" executionId="a23b6c62-d4ad-4e08-9082-3b8901df9cfc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a23b6c62-d4ad-4e08-9082-3b8901df9cfc" testId="59863143-3238-122e-4d8a-637b491cc755" testName="TestMethod1" computerName="SPARK-ПК" duration="00:00:00.0088030" startTime="2015-12-14T23:22:25.0109188+03:00" endTime="2015-12-14T23:22:25.1959294+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a23b6c62-d4ad-4e08-9082-3b8901df9cfc">
+    </UnitTestResult>
+  </Results>
+</TestRun>
